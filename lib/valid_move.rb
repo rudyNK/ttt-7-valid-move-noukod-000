@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
   def position_taken?(board, position)
-  if board[position] == " " || board[position] == "" || board[position] == nil
+  if board[index] == " " || board[index] == "" || board[index] == nil
     return false
   else
   return true
