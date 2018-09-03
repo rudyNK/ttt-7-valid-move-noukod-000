@@ -17,6 +17,7 @@ def on_board?(num)
     return false
 end
 end
+end
 
 
 # re-define your #position taken method here, so that you can use it in the #valid_move method above.
