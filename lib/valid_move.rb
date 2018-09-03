@@ -5,7 +5,6 @@ def valid_move?(board, position)
     end
     if !position_taken?(board, position.to_i-1)
     return  true
-    
   end
   end
 
